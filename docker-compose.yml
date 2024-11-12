@@ -14,7 +14,7 @@ services:
   app-timesheet:
     depends_on:
       - mysqldb
-    image: razirazi/tppp-foyer:5.0.0
+    image: rihem1234/tppp-foyer:5.0.0
     #build : ./
     restart: on-failure
     ports:
